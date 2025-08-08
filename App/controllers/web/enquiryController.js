@@ -54,4 +54,4 @@ const enquiryDelete = async (req, res) => {
     res.send({ status: "Deleted Successfully", deletedEnquiry });
 };
 
-module.exports = { enquiryInsert, getAllEnquiryList, getEnquiryList, getSingleEnquiry, enquiryUpdate, enquiryDelete };
+module.exports = { enquiryInsert, getEnquiryList, getSingleEnquiry, enquiryUpdate, enquiryDelete };
