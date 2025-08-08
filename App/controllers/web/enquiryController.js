@@ -19,10 +19,6 @@ const enquiryInsert = (req, res) => {
         });
 };
 
-const getAllEnquiryList = async (req, res) => {
-    const getList = await enquiryModel.find();
-    res.send({ status: "Success ", data: getList });
-};
 const getEnquiryList = async (req, res) => {
     const getList = await enquiryModel.find();
     res.send({ status: "Success ", data: getList });
